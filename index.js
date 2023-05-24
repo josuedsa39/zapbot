@@ -7,7 +7,7 @@ const client1 = new Client({
   authStrategy: new LocalAuth(),
   puppeteer: {
     executablePath:
-      "${workspaceFolder}\\index.js",
+      "./node_modules\\whatsapp-web.js\\node_modules\\puppeteer\\.local-chromium\\win64-982053\\chrome-win\\chrome.exe",
     args: ["--no-sandbox", "--disable-setuid-sandbox"],
   },
 });
