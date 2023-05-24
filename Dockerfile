@@ -1,8 +1,8 @@
-FROM node:18
+FROM node:12
 
 WORKDIR /index.js
 
-COPY . /package.json
+COPY . /index.js
 
 RUN npm install
 
